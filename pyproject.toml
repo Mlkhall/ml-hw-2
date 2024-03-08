@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-hw-2"
+version = "0.1.0"
+description = ""
+authors = ["Чумаков Михаил Дмитриевич <mikhail.chumakov@sbermarket.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.1.1"
+pandas = "^2.2.1"
+plotly = "^5.19.0"
+rich = {extras = ["jupyter"], version = "^13.7.1"}
+scikit-learn = "^1.4.1.post1"
+pylatexenc = "^2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
